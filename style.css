@@ -1,0 +1,106 @@
+/* Colors and fonts */ 
+body {
+	background: white;
+	color: white ;
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+}
+
+h1, h2, h3 {
+	font-family: 'League Gothic', sans-serif;
+ } 
+h1 {
+	color: white ; 
+	font-size: 32px;
+	letter-spacing: 8px;
+	font-weight: bold;
+
+}
+h2 {
+	color: rgb(200,200,200);
+	font-family: Times;
+	font-size: 24px;
+	font-weight: lighter ;
+}
+
+a {
+	font-family: Times; 
+	text-decoration: none ;
+	color: pink; 
+	font-weight: bold;
+	font-size: 16px;
+}
+a:hover {
+	color: #FF8AAE;
+
+} 
+
+/* Custom design with class (99% of your desing) */
+
+.container {
+   width: 700px;
+   margin: 40px auto;
+} 
+.card-white {
+  background-color: grey;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 50%; 
+
+}
+.btn-black {
+	background-color: pink;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}  
+
+.btn-black:hover {
+  background-color: #FF8AAE ;
+  color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px ;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i: hover {
+	font-size: 50px;
+}
+
+/* Design adjustement using id (1% desing remaining) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+   .container {
+		width: 540px;
+		}
+}
+
+
+
+
+
+
+
+
